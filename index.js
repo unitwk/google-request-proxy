@@ -47,5 +47,6 @@ const server = http.createServer((request, response) => {
   request.pipe(proxy);
 });
 
-server.listen(8089);
-console.log("已启动");
+server.listen(80);
+console.log("Http server stared!");
+console.log("Program started!");
